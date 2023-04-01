@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BRUS BIKE STORE</title>
+    <!-- LINK FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- START HEADER -->
+    <header>
+      <div class="logo">BRUS BIKE STORE</div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- START MAIN -->
+    <main>
+      <article>
+        <!-- start section head -->
+        <section class="head">
+          <h1>Leihbikes</h1>
+          <p>
+            Wir vermieten hochwertige Fahrräder, und zudem eine Vielzahl von
+            Zubehörteilen, z.B. Helme, Reparatur Kit oder GPS Systeme.
+            <span class="diskont"> Ab 5. Tag 10% Rabatt</span>
+          </p>
+        </section>
+        <!-- end section head -->
+
+        <!-- start section Daten und Artikel -->
+        <section class="artInfo">
+          <form action="#" name="bikestore" class="bikestore">
+            <div class="daten" id="daten">
+              <h4>GEWÜNSCHTES DATUM EINGEBEN</h4>
+              <!-- input dates -->
+            </div>
+            <div class="warning"></div>
+            <div class="bikes" id="bikes">
+              <h4>GEWÜNSCHTE RÄDER AUSWÄHLEN</h4>
+              <!-- select Element + Options -->
+            </div>
+            <div class="add" id="add">
+              <h4>Zusätzliches Zubehör</h4>
+              <!-- checkboxes input -->
+            </div>
+          </form>
+          <!-- START ASIDE -->
+          <aside>
+            <h3>MEINE BESTELLUNG</h3>
+            <section id="infoAside">
+              <!-- Tage Differenz -->
+              <div>
+                <span id="tag"></span>
+                <span id="diffDay"></span>
+              </div>
+              <!-- ausgewähltes Rad + Preis -->
+              <div id="errorBike">
+                <span id="bikeName"></span>
+                <span id="bikePreis"></span>
+              </div>
+              <!-- ausgewähltes Zubehör + Preis -->
+              <section id="zubehoer"></section>
+              <!-- Rabatt info -->
+              <div>
+                <span id="rabattText"></span>
+                <span id="rabatt"></span>
+              </div>
+              <!-- GesamtSumme info -->
+              <div>
+                <span id="summeText"></span>
+                <span id="gesamtSumme"></span>
+              </div>
+            </section>
+          </aside>
+          <!-- END ASIDE -->
+        </section>
+        <!-- end section Daten und Artikel -->
+
+        <!-- START SECTION FOTOS -->
+        <section class="bikeFotos">
+          <figure class="img">
+            <figcaption>E-Tourenbike</figcaption>
+            <img src="./img/bike1.jpg" alt="E-Tourenbike für Erwachsene" />
+          </figure>
+          <figure class="img">
+            <figcaption>E-Roadbike</figcaption>
+
+            <img src="./img/bike2.jpg" alt="E-Roadbike für Erwachsene" />
+          </figure>
+          <figure class="img">
+            <figcaption>E-Mountainbike</figcaption>
+
+            <img src="./img/bike3.jpg" alt="E-Mountainbike für Erwachsene" />
+          </figure>
+          <figure class="img">
+            <figcaption>E-Mountainbike Kinder</figcaption>
+
+            <img src="./img/bike4.jpg" alt="E-Mountainbike für Kinder" />
+          </figure>
+          <figure class="img">
+            <figcaption>Tourenbike</figcaption>
+
+            <img src="./img/bike5.png" alt="Tourenbike für Erwachsene" />
+          </figure>
+        </section>
+        <!-- END SECTION FOTOS -->
+      </article>
+    </main>
+    <!-- END MAIN -->
+
+    <!-- LINK JS -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

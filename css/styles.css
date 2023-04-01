@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mukta', sans-serif;
+  font-size: 1.2rem;
+}
+h1 {
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+h3,
+h4 {
+  font-size: 1.4rem;
+  padding: 1rem 0;
+}
+input[type='checkbox'] {
+  font-size: 1.5rem;
+  accent-color: black;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+input[type='checkbox'],
+select,
+input[type='date'] {
+  cursor: pointer;
+}
+select,
+select option,
+input {
+  padding: 0.5rem 1.7rem;
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+}
+
+/*header*/
+header {
+  background-color: black;
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+header .logo {
+  color: white;
+  font-weight: 800;
+  font-size: 2.3rem;
+}
+/*main*/
+main {
+  width: 100%;
+  background-image: url(../img/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  justify-items: center;
+}
+main .head .diskont {
+  font-weight: bold;
+  display: block;
+  font-size: 1.4rem;
+  padding-top: 0.5rem;
+}
+.diskont:hover {
+  color: rgb(33, 98, 33);
+}
+main article {
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: grid;
+  justify-content: center;
+  gap: 2rem;
+}
+main article .head {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+main article .artInfo {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0 2rem;
+}
+/*Aside*/
+#infoAside div {
+  display: flex;
+  justify-content: space-between;
+}
+#zubehoer {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+/*Bikes Fotos Section*/
+.bikestore .dat {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.bikestore .warning {
+  color: #ff0000;
+}
+.bikestore .add .checkCards .checkCard {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  height: 7rem;
+}
+.bikestore .add .checkCards .checkCard img {
+  height: 6rem;
+}
+
+.bikeFotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-top: 2.3rem;
+}
+.bikeFotos figure {
+  width: 15rem;
+  margin: 0 2rem;
+  text-align: center;
+}
+.bikeFotos figure img {
+  width: 100%;
+}
